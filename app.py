@@ -8,7 +8,7 @@ produtos = [
     {"id":2,"nome":"Tênis Jordan","preco":1700},
     {"id":3,"nome":"Boné New Era","preco":160},
     {"id":4,"nome":"Óculos Travis Scott","preco":3000},
-    {"id":5,"nome":"celular","preco":5000}
+    {"id":5,"nome":"celular","preco":5000},
     {"id":6,"nome":"Moletom","preco":2000}
 ]
 
