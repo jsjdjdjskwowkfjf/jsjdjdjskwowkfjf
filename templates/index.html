@@ -9,19 +9,13 @@
 <h2>Produtos</h2>
 
 <div class="produtos">
-
 {% for p in produtos %}
-
 <div class="produto">
-<h3>{{p.nome}}</h3>
-<p>R$ {{p.preco}}</p>
-
-<a href="/add/{{p.id}}">Comprar</a>
-
+    <h3>{{ p.nome }}</h3>
+    <p>R$ {{ p.preco }}</p>
+    <a href="/add/{{ p.id }}">Comprar</a>
 </div>
-
 {% endfor %}
-
 </div>
 
 {% endblock %}
