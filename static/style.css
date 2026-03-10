@@ -1,0 +1,47 @@
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:0;
+}
+
+header{
+background:black;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+}
+
+.conteudo{
+padding:20px;
+}
+
+.produtos{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.produto{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+width:200px;
+}
+
+.produto a{
+display:inline-block;
+margin-top:10px;
+background:blue;
+color:white;
+padding:8px 12px;
+text-decoration:none;
+border-radius:5px;
+}

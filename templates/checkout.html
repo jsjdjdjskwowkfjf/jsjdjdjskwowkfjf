@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Checkout</h2>
+
+{% if mensagem %}
+
+<h3 style="color:green;">{{ mensagem }}</h3>
+<a href="/">Voltar para loja</a>
+
+{% else %}
+
+<form method="post">
+
+<label>Nome</label>
+<input type="text" required>
+
+<label>Endereço</label>
+<input type="text" required>
+
+<button type="submit">Finalizar compra</button>
+
+</form>
+
+{% endif %}
+
+{% endblock %}

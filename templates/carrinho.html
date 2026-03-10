@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Seu carrinho</h2>
+
+{% for item in itens %}
+
+<p>{{item.nome}} - R$ {{item.preco}}</p>
+
+{% endfor %}
+
+<h3>Total: R$ {{total}}</h3>
+
+<a href="/checkout">Finalizar compra</a>
+
+{% endblock %}
